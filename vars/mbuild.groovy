@@ -1,3 +1,3 @@
 def call(args){
-  sh "${tool 'M3'}/bin/mvn ${args}"
+  bat "${tool 'M3'}/bin/mvn ${args}"
 }
